@@ -1,7 +1,7 @@
 {
   "name": "anxious-helper",
   "version": "1.0.0",
-  "description": "一个使用ts写的方法库 类似lodas 用于学习积累",
+  "description": "一个使用ts写的方法库 类似lodash 用于学习积累",
   "main": "index.js",
   "directories": {
     "test": "test"
