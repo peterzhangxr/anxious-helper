@@ -1,0 +1,33 @@
+{
+  "name": "anxious-helper",
+  "version": "1.0.0",
+  "description": "一个使用ts写的方法库 类似lodas 用于学习积累",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterzhangxr/anxious-helper.git"
+  },
+  "keywords": [
+    "helper",
+    "anxious",
+    "fronted",
+    "ts",
+    "lodash"
+  ],
+  "author": "peterzhangxr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterzhangxr/anxious-helper/issues"
+  },
+  "homepage": "https://github.com/peterzhangxr/anxious-helper#readme",
+  "dependencies": {
+    "husky": "^7.0.4"
+  }
+}
