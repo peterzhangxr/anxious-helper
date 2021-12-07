@@ -1,7 +1,7 @@
 /**
  * 公共的方法
 */
-
+const { toString } = Object.prototype
 /**
  * 检测是否为空
 */
@@ -35,4 +35,18 @@ export function isArray(v) {
 */
 export function isFunction(v) {
 	return typeof v === 'function'
+}
+
+/**
+ * 检测是否为null
+*/
+export function isNull(v) {
+	return v === null
+}
+
+/**
+ * 检测是否Symbol
+*/
+export function isSymbol(v) {
+	return typeof v === 'symbol' || (isObject(v) && toString.call(v) === '[object Symbol]')
 }
