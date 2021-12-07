@@ -29,3 +29,10 @@ export function isPrimitive(v) {
 export function isArray(v) {
 	return Array.isArray(v)
 }
+
+/**
+ * 检测是否为Function
+*/
+export function isFunction(v) {
+	return typeof v === 'function'
+}
